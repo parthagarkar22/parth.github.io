@@ -23,6 +23,7 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#experience">Experience</a></li>
+                <li><a href="#work-projects">Work Projects</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#aiml">AI / ML</a></li>
                 <li><a href="#education">Education</a></li>
@@ -82,11 +83,6 @@
                 <div class="metric">
                     <span class="metric-value" data-target="8.67" data-float="true">0</span>
                     <span class="metric-label">CGPA</span>
-                </div>
-                <div class="metric-divider"></div>
-                <div class="metric">
-                    <span class="metric-value" data-target="5">0</span>
-                    <span class="metric-label">Projects Built</span>
                 </div>
                 <div class="metric-divider"></div>
                 <div class="metric">
@@ -326,11 +322,64 @@
         </div>
     </section>
 
-    <!-- Projects -->
-    <section class="section section-dark" id="projects">
+    <!-- Work Experience Projects -->
+    <section class="section section-dark" id="work-projects">
         <div class="container">
             <div class="section-header reveal">
-                <span class="section-tag">04 — Projects</span>
+                <span class="section-tag">04 — Work Experience Projects</span>
+                <h2 class="section-title">Built at Ordinet</h2>
+                <p class="section-sub">Production projects delivered as Software Developer Intern at Ordinet Software Solutions</p>
+            </div>
+            <div class="projects-masonry">
+                <div class="project-card project-featured glass-card tilt-card reveal">
+                    <div class="project-glow"></div>
+                    <div class="project-label">
+                        <span class="label-dot"></span> Ordinet · Multi-Tenant
+                    </div>
+                    <h3>Vistaar AI</h3>
+                    <ul class="exp-list project-desc-list">
+                        <li>Multi-tenant Django/DRF API for plant operations — machines, materials, and finance. Built JWT-secured, schema-isolated APIs for production KPIs, cash-flow analytics, and AI-driven insights.</li>
+                        <li>Delivered report generation, simulators, forecasting/RAG services, and onboarding flows for plant and admin users.</li>
+                    </ul>
+                    <div class="project-stack">
+                        <span>Django</span><span>DRF</span><span>PostgreSQL</span><span>Simple JWT</span><span>RAG</span>
+                    </div>
+                </div>
+                <div class="project-card glass-card tilt-card reveal">
+                    <div class="project-label">
+                        <span class="label-dot"></span> Ordinet · AgriTech
+                    </div>
+                    <h3>NextGen AgriTech</h3>
+                    <ul class="exp-list project-desc-list">
+                        <li>Django REST API for a multi-company agri-tech platform. Built APIs for farm/crop management, disease advisory, weather/soil insights, and agri e-commerce (orders, payments, quotations).</li>
+                        <li>Added chatbot, analytics dashboards, and role-based multi-tenant access for mobile and admin apps.</li>
+                    </ul>
+                    <div class="project-stack">
+                        <span>Django</span><span>DRF</span><span>Multi-Tenant</span><span>Chatbot</span><span>Analytics</span>
+                    </div>
+                </div>
+                <div class="project-card glass-card tilt-card reveal">
+                    <div class="project-label">
+                        <span class="label-dot"></span> Ordinet · RAG
+                    </div>
+                    <h3>Vistaar AI Lite</h3>
+                    <ul class="exp-list project-desc-list">
+                        <li>Developed Vistaar RAG, a Django/DRF chatbot that answers questions on uploaded Excel data using LLM-generated SQL.</li>
+                        <li>Implemented conversational onboarding, OTP login, workbook versioning, and a source-adapter architecture for future DB/PDF support.</li>
+                    </ul>
+                    <div class="project-stack">
+                        <span>Django</span><span>DRF</span><span>RAG</span><span>LLM</span><span>Excel</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">05 — Projects</span>
                 <h2 class="section-title">Things I've Built</h2>
             </div>
             <div class="projects-masonry">
@@ -368,9 +417,12 @@
                     </div>
                 </div>
                 <div class="project-card glass-card tilt-card reveal">
-                    <h3>Student Records Management System</h3>
+                    <h3>EduTrack</h3>
                     <p class="project-period">Apr – May 2025</p>
-                    <p class="project-desc">CRUD application for student data management with optimised DB queries that cut bulk record retrieval time significantly.</p>
+                    <ul class="exp-list project-desc-list">
+                        <li>Java Swing-based CRUD system for managing student enrollment, grades, and attendance records on a relational MySQL backend.</li>
+                        <li>Redesigned indexed SQL queries to significantly cut retrieval time on bulk student record lookups.</li>
+                    </ul>
                     <div class="project-stack">
                         <span>Java</span><span>Advanced Java</span><span>MySQL</span>
                     </div>
@@ -380,10 +432,10 @@
     </section>
 
     <!-- AI/ML -->
-    <section class="section" id="aiml">
+    <section class="section section-dark" id="aiml">
         <div class="container">
             <div class="section-header reveal">
-                <span class="section-tag">05 — AI / ML</span>
+                <span class="section-tag">06 — AI / ML</span>
                 <h2 class="section-title">Intelligent Systems</h2>
                 <p class="section-sub">AI-powered solutions I've engineered using cutting-edge technologies</p>
             </div>
@@ -420,10 +472,10 @@
     </section>
 
     <!-- Education -->
-    <section class="section section-dark" id="education">
+    <section class="section" id="education">
         <div class="container">
             <div class="section-header reveal">
-                <span class="section-tag">06 — Education</span>
+                <span class="section-tag">07 — Education</span>
                 <h2 class="section-title">Academic Background</h2>
             </div>
             <div class="edu-main glass-card tilt-card reveal">
@@ -483,10 +535,10 @@
     </section>
 
     <!-- Contact -->
-    <section class="section" id="contact">
+    <section class="section section-dark" id="contact">
         <div class="container">
             <div class="section-header reveal">
-                <span class="section-tag">07 — Contact</span>
+                <span class="section-tag">08 — Contact</span>
                 <h2 class="section-title">Let's Connect</h2>
                 <p class="section-sub">Have a project in mind or want to collaborate? Reach out.</p>
             </div>
